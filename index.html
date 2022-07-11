@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>DR TECH</title>
+  </head>
+  <body>
+    <div class="root">
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/banner/logo.png" class="nav-logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 nav-items-container"
+            ></ul>
+            <span class="navbar-text">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-items-container">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-link">Home</button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-link">Services</button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-link">About us</button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-link">Careers</button>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-link">Portfolio</button>
+                </li>
+                <li class="nav-item">
+                  <button
+                    type="button"
+                    class="btn btn-primary DRT-primary-button"
+                  >
+                    Contact Us
+                  </button>
+                </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </nav>
+      <!-- NAV -->
+
+      <!-- SLIDER -->
+      <div id="carousel-root" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="active"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class=""
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="images/banner/slider.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="carousel-item active">
+            <img src="images/banner/slider.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner/slider.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- SLIDER -->
+
+      <!-- SERVICES -->
+      <div class="services-root main-container">
+        <div class="services-header">
+          <h4 class="services-title">Our <span>Services</span></h4>
+          <p class="services-sub-title">
+            Worth Branding Solution To Elevate Your Business Into New Scales
+          </p>
+        </div>
+
+        <div class="row services-card-container">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 26.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Web Development</div>
+              <p class="services-card-details">
+                Well-designed, customizable, scalable solutions relating to
+                business needs on time
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 27.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Mobile App Development</div>
+              <p class="services-card-details">
+                Aid to bring new facets to your business as per market trends
+                with innovative, niche ideas
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 28.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Graphic Design</div>
+              <p class="services-card-details">
+                Design of high-standard web/ mobile apps & software solutions
+                with emerging technologies
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 29.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Web Development</div>
+              <p class="services-card-details">
+                Well-designed, customizable, scalable solutions relating to
+                business needs on time
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 30.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Mobile App Development</div>
+              <p class="services-card-details">
+                Aid to bring new facets to your business as per market trends
+                with innovative, niche ideas
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="services-card">
+              <img
+                src="images/services/Group 26.png"
+                class="services-card-icon"
+              />
+              <div class="services-card-title">Graphic Design</div>
+              <p class="services-card-details">
+                Design of high-standard web/ mobile apps & software solutions
+                with emerging technologies
+              </p>
+              <div class="services-card-footer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICES -->
+
+      <!-- WE ARE DR TECH -->
+      <div class="dr-tech-root main-container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-7">
+            <div>
+              <div class="dr-tech-container">
+                <h4 class="dr-tech-title">WE ARE <span>DR TECH</span></h4>
+                <div class="dr-tech-first-desc">
+                  Casperon is an established global firm focussing on business
+                  intelligence, Mobile Application, software and IOT products.
+                  Our Client base involves companies of all sizes, ranging from
+                  startups to big enterprises.
+                </div>
+                <div class="dr-tech-second-desc">
+                  With offices in India, the UK and the US we deliver robust,
+                  customized digital solutions at affordable price in the
+                  market. We are different because we develop a deep
+                  understanding of the client's field of business and then we
+                  create a wide variety of solutions to meet the exact needs of
+                  our clients.
+                </div>
+              </div>
+              <div class="mt-5 my-5">
+                <button
+                  type="button"
+                  class="btn btn-primary DRT-primary-button"
+                >
+                  About Us
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-5 d-none d-sm-block text-c">
+            <img src="images/banner/banner_2.png" class="dr-tech-img" />
+          </div>
+        </div>
+      </div>
+      <!-- WE ARE DR TECH -->
+
+      <!-- WORKING PROCESS -->
+      <div class="working-process-root main-container">
+        <h4 class="working-process-title">Our Working <span>Process</span></h4>
+        <img src="images/banner/flow.png" alt="flow" class="img-fluid" />
+      </div>
+      <!-- WORKING PROCESS -->
+
+      <!-- SOCIAL -->
+      <div class="main-container">
+        <div class="social-root">
+          <div class="social-container">
+            <div class="social-item">
+              <i class="bi bi-facebook d-none d-md-block"></i>
+              <span>Like us</span>
+            </div>
+            <div class="social-item">
+              <i class="bi bi-twitter d-none d-md-block"></i>
+              <span>Follow us</span>
+            </div>
+            <div class="social-item">
+              <i class="bi bi-linkedin d-none d-md-block"></i>
+              <span>Join us</span>
+            </div>
+            <div class="social-item">
+              <i class="bi bi-envelope-open-fill d-none d-md-block"></i>
+              <span>Email us</span>
+            </div>
+            <div class="social-item">
+              <i class="bi bi-youtube d-none d-md-block"></i>
+              <span>Youtube</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SOCIAL -->
+
+      <!-- FOOTER -->
+      <div class="footer-root">
+        <div class="row g-0">
+          <div class="col-sm-12 col-md-12 col-lg-2">
+            <img src="images/banner/logo-dark.png" class="nav-logo" />
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2 mt-4">
+            <h6 class="footer-section-title">Information</h6>
+            <ul class="footer-section-items">
+              <li class="footer-section-item">Home</li>
+              <li class="footer-section-item">Service</li>
+              <li class="footer-section-item">About Us</li>
+              <li class="footer-section-item">Careers</li>
+              <li class="footer-section-item">Portfolio</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2 mt-4">
+            <h6 class="footer-section-title">Services</h6>
+            <ul class="footer-section-items">
+              <li class="footer-section-item">Search Engine Optimization</li>
+              <li class="footer-section-item">Social Media Optimization</li>
+              <li class="footer-section-item">Search Engine Marketing</li>
+              <li class="footer-section-item">Social Media Marketing Us</li>
+              <li class="footer-section-item">Website Design & Development</li>
+              <li class="footer-section-item">UI & UX Design</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2 mt-4">
+            <h6 class="footer-section-title">Services</h6>
+            <ul class="footer-section-items">
+              <li class="footer-section-item">Brand Identity</li>
+              <li class="footer-section-item">
+                Space Design & Visual Branding
+              </li>
+              <li class="footer-section-item">Marketing Collateral Design</li>
+              <li class="footer-section-item">About Packaging Design</li>
+              <li class="footer-section-item">Content Marketing</li>
+              <li class="footer-section-item">Influencer Marketing</li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-2 mt-4">
+            <h6 class="footer-section-title">Contact Us</h6>
+            <p class="footer-section-item">
+              Morgan Tower, 10th Floor, Sopheak Mongkol RD, Koh Pich, Khan
+              Chamkarmon, Phnom Penh
+            </p>
+            <p class="footer-section-item">Call : 070 970 855</p>
+            <p class="footer-section-item">Email : info@dr-tech.co</p>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER -->
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
